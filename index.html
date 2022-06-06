@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      background-color: #D5E1EF;
+      font-family: 'Outfit', sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: calc(100vh - 0.1px);
+    }
+    .box{
+    /* flexbox */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* size */
+    width: 320px;
+
+    /* color */
+    background-color: hsl(0, 0%, 100%);
+
+    /* round borders*/
+    border-radius: 20px;
+
+    /* shadow */
+    box-shadow: 0 15px 30px hsl(212, 24%, 81%);
+      
+    }
+
+    img{
+      border-radius: 30px;
+      width: 90%;
+      border-radius: 10px;
+      margin-top: 15px;
+    }
+    
+    h2{
+      margin: 25px 20px 10px 20px;
+      font-family: 'Outfit', sans-serif;
+      font-weight: 700;
+      color: hsl(218, 44%, 22%);
+      text-align: center;
+    }
+    
+    p{
+      font-size: 15px;
+      color:#bdc1d1;
+      text-align: center;
+      margin: 5px 35px 40px 35px;
+    }
+    
+
+
+  </style>
+</head>
+<body>
+  <div class="box">
+      <img class="qrcode" src="./images/image-qr-code.png" alt="qrcode image" />
+      <h2 class="title">Improve your front-end skills by building projects</h2>
+      <p class="description">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+  </div>
+</body>
+</html>
